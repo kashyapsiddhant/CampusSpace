@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11"
+    android:background="#3F51B5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/textview1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="BOOK"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/audi"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Auditorium"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            ></Button>
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/details2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/text_border"
+            android:gravity="center"
+            android:text="\nName : Dr. T. P. Ganeshan Auditorium \n Capacity : 3000 \n Person Incharge : pro@srmist.edu.in\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/text_border"
+            android:gravity="center"
+            android:hint="Select Menu"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></Button>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_margin="10dp"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           android:orientation="vertical">
+
+        <Button
+            android:id="@+id/date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#00BCD4"
+            android:elevation="20dp"
+            android:text="Select Date"
+            android:textColor="@color/black"
+            android:textStyle="bold"></Button>
+
+       <TextView
+           android:id="@+id/selecteddate2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="12/02/2023"
+           android:textColor="@color/white"
+           android:layout_gravity="center"
+           android:textSize="18dp"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           android:orientation="vertical">
+
+           <Button
+               android:id="@+id/date3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="18dp"
+               android:backgroundTint="#00BCD4"
+               android:elevation="20dp"
+               android:text="Select Date"
+               android:textColor="@color/black"
+               android:textStyle="bold"></Button>
+
+           <TextView
+               android:id="@+id/selecteddate3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="12/02/2023"
+               android:textColor="@color/white"
+               android:layout_gravity="center"
+               android:textSize="18dp"/>
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:id="@+id/starttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:elevation="20dp"
+                    android:text="Start time"
+                    android:backgroundTint="#00BCD4"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    ></Button>
+
+                <TextView
+                    android:id="@+id/startselectedtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:30pm"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:id="@+id/endtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:elevation="20dp"
+                    android:text="end time"
+                    android:backgroundTint="#00BCD4"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    ></Button>
+
+                <TextView
+                    android:id="@+id/endselectedtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:30pm"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/fbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_corner"
+            android:text="BOOk"
+            android:textColor="@color/black"
+            android:textSize="20dp"></Button>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

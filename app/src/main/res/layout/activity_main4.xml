@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".MainActivity4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Choose Your\nPreference:"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="80dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="150dp">
+
+                <androidx.cardview.widget.CardView
+                    android:backgroundTint="#03A9F4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="150dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/Book"
+                        android:background="#00000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:scaleType="centerCrop"
+                        android:textColor="@color/black"
+                        android:text="BOOK"
+                        android:textSize="28dp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="80dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="150dp">
+
+                <androidx.cardview.widget.CardView
+                    android:backgroundTint="#03A9F4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="150dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/Cancel"
+                        android:background="#00000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:scaleType="centerCrop"
+                        android:textColor="@color/black"
+                        android:text="Cancel"
+                        android:textSize="28dp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="80dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="150dp">
+
+                <androidx.cardview.widget.CardView
+                    android:backgroundTint="#03A9F4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="150dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/Bookings"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#00000000"
+                        android:gravity="center"
+                        android:scaleType="centerCrop"
+                        android:textColor="@color/black"
+                        android:text="MY BOOKINGS"
+                        android:textSize="28dp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="80dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="150dp">
+
+                <androidx.cardview.widget.CardView
+                    android:backgroundTint="#03A9F4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="150dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/Profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:background="#00000000"
+                        android:scaleType="centerCrop"
+                        android:textColor="@color/black"
+                        android:text="PROFILE"
+                        android:textSize="28dp"
+                        android:textStyle="bold">
+
+                    </Button>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

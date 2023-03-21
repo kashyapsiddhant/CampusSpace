@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1047868431581",
+    "firebase_url": "https://campusspace-66c67-default-rtdb.firebaseio.com",
+    "project_id": "campusspace-66c67",
+    "storage_bucket": "campusspace-66c67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047868431581:android:75ff7028a1f6b2106e4f34",
+        "android_client_info": {
+          "package_name": "com.example.campusspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047868431581-ulfkr2ddulrcla9bhf9psr47mjiupmq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.campusspace",
+            "certificate_hash": "ed502b40286e04837cbdb3d94e10dee5f6b77ad7"
+          }
+        },
+        {
+          "client_id": "1047868431581-igl5e64avrj64qit3b7kk3hs8dglmkfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBahx8I6e4KjkcxBmvoMpsnJ9NM8trYUFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047868431581-igl5e64avrj64qit3b7kk3hs8dglmkfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
